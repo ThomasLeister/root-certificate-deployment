@@ -35,6 +35,8 @@ Browsers will trust your CA after a restart.
 
 Rename "root.cert.pem" to "root.cert.crt", so Windows will recognize the file as a certificate. Open the file and choose "Install certificate". Install the certificate to the "Trusted Root Certification Authorities" subdirectory - either system-wide or for a specific user only.
 
+![Screencast](/install_root_windows.gif?raw=true)
+
 
 #### Via Active Directory
 
