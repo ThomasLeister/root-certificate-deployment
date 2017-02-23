@@ -2,7 +2,7 @@
 
 If you [manage your own corporate or private Certificate Authority (CA)](https://github.com/aditosoftware/nodepki-docker), sooner or later you'll want to deploy the root CA's certificate on your Linux and Windows clients. This little How-To guides you through the process of deploying your root certificate.
 
-**Assumption:** Your Root CA's certificate is existent as ```root.cert.pem```
+**Assumption:** Your root CA's certificate is existent as ```root.cert.pem```
 
 
 ## Linux
