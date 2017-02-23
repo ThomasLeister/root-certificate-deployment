@@ -1,6 +1,6 @@
 # How-To: Root CA certificate integration for Linux and Windows
 
-If you manage your own corporate or private Certificate Authority (CA), sooner or later you'll want to deploy the Root CA's certificate on your Linux and Windows Clients. This little How-To guides you through the process of deploying your root certificate.
+If you manage your own corporate or private Certificate Authority (CA), sooner or later you'll want to deploy the root CA's certificate on your Linux and Windows clients. This little How-To guides you through the process of deploying your root certificate.
 
 **Assumption:** Your Root CA's certificate is existent as ```root.cert.pem```
 
@@ -45,12 +45,12 @@ You can install new root certificates for every Windows Domain participant via A
 
 #### Chrome, Vivaldi, Opera, Edge, Internet Explorer
 
-These Browsers are using the Windows trust store and accept the certificate by default if it was installed into the Windows trust store before.
+These browsers are using the Windows trust store and accept the certificate by default if it was installed into the Windows trust store before.
 
 
 #### Firefox
 
-Firefox uses it's own trust store and therefore doesn't accept the Root CA even if Windows does. You can manually import the Root Certificate in the Firefox Settings or enable experimental Windows trust store support:
+Firefox uses it's own trust store and therefore doesn't accept the Root CA even if Windows does. You can manually import the root certificate in the Firefox settings or enable experimental Windows trust store support:
 
 Copy the file ```firefox-windows-truststore.js``` to Firefox's ```C:\Program Files (x86)\Mozilla Firefox\defaults\pref``` directory.
 
